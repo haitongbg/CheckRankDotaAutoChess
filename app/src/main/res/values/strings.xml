@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Check  Rank Dota AutoChess</string>
+    <string name="steamId">SteamID / SteamID64 / URL:</string>
+    <string name="input_your_steamid">Nhập steamID...</string>
+    <string name="title">Dota AutoChess Ranking</string>
+    <string name="check">Check</string>
+    <string name="online">online</string>
+    <string name="your_rank_name">Xếp hạng nhân phẩm:</string>
+    <string name="your_rank_point">Điểm nhân phẩm:</string>
+    <string name="your_game_count">Số ván đã chơi:</string>
+    <string name="your_candy_count">Số kẹo:</string>
+    <string name="your_courier_list">Thú cưỡi:</string>
+    <string name="offline">offline</string>
+    <string name="steam_id_empty">ID rỗng</string>
+    <string name="no_result">Không tìm thấy kết quả.</string>
+</resources>

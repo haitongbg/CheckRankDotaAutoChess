@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "23886811020",
+    "firebase_url": "https://check-rank-dota-autochess.firebaseio.com",
+    "project_id": "check-rank-dota-autochess",
+    "storage_bucket": "check-rank-dota-autochess.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23886811020:android:11f9f81836998e71",
+        "android_client_info": {
+          "package_name": "tonghai.com.checkrankdotaautochess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23886811020-986ogv0d30nhbtcur8k7aa3mtu4ia86q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tonghai.com.checkrankdotaautochess",
+            "certificate_hash": "fc9b913d54018f815c303261f438cd2f140f7edd"
+          }
+        },
+        {
+          "client_id": "23886811020-jcbhd5k8jkb3ltrhjel479jhko022qqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDep24JgMa0-ZijAGDIetuuZCYKMyx2z-4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23886811020-jcbhd5k8jkb3ltrhjel479jhko022qqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

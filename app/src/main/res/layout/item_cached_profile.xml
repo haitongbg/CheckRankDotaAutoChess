@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/size_10"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="right|center_vertical"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:textColor="@color/black_3"
+        android:textSize="@dimen/text_15"
+        android:layout_marginTop="@dimen/size_5"
+        app:layout_constraintBottom_toTopOf="@id/tv_steamid64"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/tv_steamid64"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/size_10"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="right|center_vertical"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:textColor="@color/black_9"
+        android:textSize="@dimen/text_14"
+        android:layout_marginBottom="@dimen/size_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        tools:text="SteamID64" />
+    <View
+        android:id="@+id/v_underline"
+        android:layout_marginLeft="@dimen/size_10"
+        android:layout_marginRight="@dimen/size_10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="0dp"
+        android:background="@color/black_c"
+        android:layout_height="@dimen/size_0_5"/>
+</android.support.constraint.ConstraintLayout>

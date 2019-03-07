@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/size_55"
+    android:layout_height="@dimen/size_55"
+    android:padding="@dimen/size_5">
+
+    <ImageView
+        android:background="@drawable/border_white_corner_1"
+        android:id="@+id/iv_courier"
+        android:layout_width="match_parent"
+        android:padding="@dimen/size_0_5"
+        android:scaleType="centerInside"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_checked"
+        android:layout_width="@dimen/text_15"
+        android:layout_height="@dimen/text_15"
+        android:padding="@dimen/size_1"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_tick_green"
+        android:visibility="gone" />
+</RelativeLayout>
